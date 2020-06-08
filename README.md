@@ -30,8 +30,6 @@ Provides extra functionality for SSRS (SQL Server Reporting Services) and Power 
 
 ### Slide Deck
 
-### PowerShell Scripts
-
 ## Built With
 
 * [Power BI Desktop Optimized for Report Server](https://www.microsoft.com/en-us/download/details.aspx?id=56722) - The Power BI Report Desktop May 2020 authoring tool used
