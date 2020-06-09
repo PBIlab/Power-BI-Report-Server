@@ -21,17 +21,13 @@ The report connects two different data sources:
 
 ### PowerShell Scripts
 
-In the PowerShell Scripts folder you can find some examples of how you can use PowerShell to manage your Power BI Report Server.
-There are some examples:
+In the PowerShell Scripts folder you can find some examples of how you can use PowerShell to manage your Power BI Report Server:
 
 * **Create-New-Folder.ps1**: simple script that can be used to check if a folder exists and create a subfolder inside it  - it uses the ReportingServicesTools PowerShell Module
 * **Add User With Permission.ps1**: simple script that can be used to add an user to a specific PBIRS folder with a specific role
 * **Update-PowerBiSecurity.ps1**: simple script that can be used to update massively the PBIRS security policy of specific folders
 
-PowerShell Modeule used: ReportingServicesTools
-Provides extra functionality for SSRS (SQL Server Reporting Services) and Power BI Report Server.
-The Create-New-Folder script is just a basic example of what you can do using this module.  
-The module includes the ability to deploy SSRS Reports, Datasets, and DataSources; as well as Power BI Reports.
+PowerShell Modeule used: **ReportingServicesTools**. The module provides extra functionality for SSRS (SQL Server Reporting Services) and Power BI Report Server. The Create-New-Folder script is just a basic example of what you can do using this module. The module includes the ability to deploy SSRS Reports, Datasets, and DataSources; as well as Power BI Reports.
 
 ### SSMS Queries
 
@@ -40,7 +36,7 @@ In the SSMS Queries folder you can find some examples of SQL Queries you could u
 * **PBIRS ConfigurationInfo.sql**: simple query to list the properties of your PBIRS
 * **PBIRS Change Execution Log Days Kept Property.sql**: simple query to change the retention policy of your PBIRS execution logs
 * **PBIRS Execution Log.sql**: simple query to retrieve the execution logs for your Paginated Reports and Power BI reports
-* **PBIRS Folder Structure.sql**: simple query with cte to verify your PBIRS folder structure
+* **PBIRS Folder Structure.sql**: simple query with CTE to verify your PBIRS folder structure
 * **PBIRS Folder Structure, Paginated Reports, Power BI Reports Security.sql**: simple query to check the security policies of your PBIRS Folders, Paginated Reports and Power BI reports
 
 ### Slide Deck
