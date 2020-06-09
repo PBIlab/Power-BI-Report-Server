@@ -13,20 +13,20 @@ This repository contains four sections/folders:
 ### Power BI Reports
 
 In the Power BI Reports folder you can find an example of an Usage Log PBIRS Power BI report.
-This report can be used to show the Report Server usage Log and the list of power bi reports data sources.
+This report can be used to show the Report Server usage Log and the list of Power BI reports data sources.
 
 The report connects two different data sources:
-* SQL Server database connection to PBIRS database catalog - localhost;ReportServer_PBIRS (change the server and database name to point at your PBIRS database catalog)
-* OData API to PBIRS - http(s)://pbilabrs1/Reports_PBIRS/api/v2.0 (change the report server name to point at your PBIRS portal) 
+* **SQL Server database connection to PBIRS database catalog** - localhost;ReportServer_PBIRS (change the server and database name to point at your PBIRS database catalog)
+* **OData API to PBIRS** - http(s)://pbilabrs1/Reports_PBIRS/api/v2.0 (change the report server name to point at your PBIRS portal) 
 
 ### PowerShell Scripts
 
 In the PowerShell Scripts folder you can find some examples of how you can use PowerShell to manage your Power BI Report Server.
 There are some examples:
 
-* Create-New-Folder: simple script that can be used to check if a folder exists and create a subfolder inside it  - it uses the ReportingServicesTools PowerShell Module
-* Add User With Permission: simple script that can be used to add an user to a specific PBIRS folder with a specific role
-* Update-PowerBiSecurity: simple script that can be used to update massively the PBIRS security policy of specific folders
+* **Create-New-Folder.ps1**: simple script that can be used to check if a folder exists and create a subfolder inside it  - it uses the ReportingServicesTools PowerShell Module
+* **Add User With Permission.ps1**: simple script that can be used to add an user to a specific PBIRS folder with a specific role
+* **Update-PowerBiSecurity.ps1**: simple script that can be used to update massively the PBIRS security policy of specific folders
 
 PowerShell Modeule used: ReportingServicesTools
 Provides extra functionality for SSRS (SQL Server Reporting Services) and Power BI Report Server.
@@ -37,11 +37,11 @@ The module includes the ability to deploy SSRS Reports, Datasets, and DataSource
 
 In the SSMS Queries folder you can find some examples of SQL Queries you could use to manage your PBIRS:
 
-* PBIRS ConfigurationInfo.sql: simple query to list the properties of your PBIRS
-* PBIRS Change Execution Log Days Kept Property.sql: simple query to change the retention policy of your PBIRS execution logs
-* PBIRS Execution Log.sql: simple query to retrieve the execution logs for your Paginated Reports and Power BI reports
-* PBIRS Folder Structure.sql: simple query with cte to verify your PBIRS folder structure
-* PBIRS Folder Structure, Paginated Reports, Power BI Reports Security.sql: simple query to check the security policies of your PBIRS Folders, Paginated Reports and Power BI reports
+* **PBIRS ConfigurationInfo.sql**: simple query to list the properties of your PBIRS
+* **PBIRS Change Execution Log Days Kept Property.sql**: simple query to change the retention policy of your PBIRS execution logs
+* **PBIRS Execution Log.sql**: simple query to retrieve the execution logs for your Paginated Reports and Power BI reports
+* **PBIRS Folder Structure.sql**: simple query with cte to verify your PBIRS folder structure
+* **PBIRS Folder Structure, Paginated Reports, Power BI Reports Security.sql**: simple query to check the security policies of your PBIRS Folders, Paginated Reports and Power BI reports
 
 ### Slide Deck
 
